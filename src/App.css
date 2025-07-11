@@ -1,0 +1,87 @@
+html,
+body,
+#root {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.scroll-hidden {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.scroll-hidden::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.before::before {
+  padding-right: 10px;
+}
+
+.theme-light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.theme-light .navbar {
+  background-color: #26354b !important;
+}
+
+.theme-light .nav-link {
+  color: #fff !important;
+}
+
+.theme-light .nav-link.active {
+  font-weight: 600;
+  color: #0dcaf0 !important;
+}
+
+.theme-dark {
+  background-color: #0d1117;
+  color: #ffffff;
+}
+
+.theme-dark .navbar {
+  background-color: #26354b !important;
+}
+
+.theme-dark .nav-link {
+  color: #ffffff !important;
+}
+
+.theme-dark .nav-link.active {
+  font-weight: 600;
+  color: #0dcaf0 !important;
+}
+
+.theme-dark .card,
+.theme-dark .container,
+.theme-dark .p-4 {
+  background-color: #0d1117;
+  color: #ffffff;
+}
+
+/* ===== Accent Colors (both modes) ===== */
+.text-accent,
+.theme-light .text-info,
+.theme-dark .text-info {
+  color: #0dcaf0 !important;
+}
+
+.btn-info {
+  background-color: #0dcaf0;
+  border-color: #0dcaf0;
+  color: #000;
+}
+
+.btn-info:hover {
+  background-color: #3dd5f3;
+  border-color: #3dd5f3;
+  color: #000;
+}
+
+.theme-dark .text-muted {
+  color: #0dcaf0 !important;
+}
