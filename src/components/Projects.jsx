@@ -15,17 +15,19 @@ export default function Projects() {
           name="Budgy"
           description="An Expense Tracker PWA"
           image={Image}
-          link={"https://my-portfolio-amina-fatimas-projects.vercel.app/"}
+          link={"https://amina0426.github.io/Budgy/"}
         />
         <ProjectCard
           name="Portfolio"
           description="A Responsive Portfolio Website using React"
           image={Image2}
+          link={"https://my-portfolio-amina-fatimas-projects.vercel.app/"}
         />
         <ProjectCard
           name="Habitat"
           description="A Habit Buider PWA"
           image={Image3}
+          link={"https://my-portfolio-amina-fatimas-projects.vercel.app/"}
         />
       </div>
     </div>

@@ -32,7 +32,7 @@ export default function ProjectCard(props) {
       />
       <div className="card-body">
         <h5 className="card-title mb-5">{props.name}</h5>
-        <a href={props.link} className="btn btn-outline-info">
+        <a href={props.link} target="_blank" className="btn btn-outline-info">
           View Live
         </a>
       </div>
