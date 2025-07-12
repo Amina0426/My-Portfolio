@@ -16,6 +16,7 @@ export default function ProjectCard(props) {
       style={{
         width: "15rem",
         height: "22rem",
+        boxShadow: "0 4px 12px rgba(255, 255, 255, 0.05)",
       }}
     >
       <img
@@ -26,13 +27,14 @@ export default function ProjectCard(props) {
         data-bs-toggle="popover"
         data-bs-trigger="hover"
         data-bs-placement="right"
-        data-bs-content="Top popover"
+        data-bs-content={props.description}
         style={{ cursor: "pointer" }}
       />
       <div className="card-body">
-        <h5 className="card-title">{props.name}</h5>
-        <p className="card-text">{props.description}</p>
-        <button className="btn btn-outline-info">View Live</button>
+        <h5 className="card-title mb-5">{props.name}</h5>
+        <a href={props.link} className="btn btn-outline-info">
+          View Live
+        </a>
       </div>
     </div>
   );

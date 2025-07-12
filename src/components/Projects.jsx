@@ -1,5 +1,7 @@
 import ProjectCard from "./ProjectCard";
 import Image from "../assets/project1.png";
+import Image2 from "../assets/project2.png";
+import Image3 from "../assets/project3.png";
 export default function Projects() {
   return (
     <div
@@ -13,16 +15,17 @@ export default function Projects() {
           name="Budgy"
           description="An Expense Tracker PWA"
           image={Image}
+          link={"https://my-portfolio-amina-fatimas-projects.vercel.app/"}
         />
         <ProjectCard
-          name="Budgy"
-          description="An Expense Tracker PWA"
-          image={Image}
+          name="Portfolio"
+          description="A Responsive Portfolio Website using React"
+          image={Image2}
         />
         <ProjectCard
-          name="Budgy"
-          description="An Expense Tracker PWA"
-          image={Image}
+          name="Habitat"
+          description="A Habit Buider PWA"
+          image={Image3}
         />
       </div>
     </div>

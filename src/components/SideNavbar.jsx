@@ -8,8 +8,8 @@ export default function SideNavbar(props) {
     <>
       <div className="navbar d-none d-md-flex" style={{ height: "100vh" }}>
         <aside
-          className="d-flex flex-column p-3 h-100"
-          style={{ width: "230px", height: "100%" }}
+          className="d-flex flex-column ps-3 pe-5 h-100"
+          style={{ width: "300px", height: "100%" }}
         >
           <span
             className="navbar-brand text-info mb-0 lh-lg fs-4"
@@ -69,7 +69,11 @@ export default function SideNavbar(props) {
                 Contact
               </NavLink>
             </li>
-            <li className="nav-item" onClick={handleModeClick}>
+            <li
+              className="nav-item"
+              onClick={handleModeClick}
+              style={{ cursor: "pointer" }}
+            >
               {props.mode === "light" ? (
                 <i className="bi bi-moon-fill nav-link before">Dark Mode</i>
               ) : (

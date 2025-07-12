@@ -1,3 +1,4 @@
+import ResumePDF from "../assets/resume.pdf";
 export default function Home() {
   return (
     <div className="container p-5 d-flex justify-content-center align-items-center flex-column">
@@ -7,13 +8,9 @@ export default function Home() {
         A dev, engineer, and a creative mind.
       </p>
       <p>"Bringing ideas to life through code & creativity."</p>
-      <button
-        type="button"
-        className="btn btn-outline-info"
-        style={{ width: "fit-content" }}
-      >
-        Download Resume
-      </button>
+      <a href={ResumePDF} download className="btn btn-outline-info">
+        <i className="bi bi-download before"></i>Download Resume
+      </a>
     </div>
   );
 }

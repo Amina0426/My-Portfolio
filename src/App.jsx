@@ -102,7 +102,7 @@ function App() {
 
         <div
           className="p-4 d-flex flex-grow-1 justify-content-center align-items-center"
-          style={{ width: "calc(100vw - 230px)", height: "100%" }}
+          style={{ width: "calc(100vw - 300px)", height: "100%" }}
         >
           <AnimatedRoutes />
         </div>
