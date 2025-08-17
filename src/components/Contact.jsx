@@ -21,29 +21,29 @@ export default function Contact() {
               <i className="bi bi-envelope-at me-3"></i>
               Email:{" "}
               <a href="mailto:amina@example.com" className="text-info">
-                <strong>amina@example.com</strong>
+                <strong>aminaf2607@gmail.com</strong>
               </a>
             </li>
             <li className="mb-3">
               <i className="bi bi-linkedin me-3"></i>
               LinkedIn:{" "}
               <a
-                href="https://linkedin.com/in/amina"
+                href="https://linkedin.com/in/aminafatima26"
                 target="_blank"
                 className="text-info"
               >
-                <strong>/in/amina</strong>
+                <strong>/in/aminafatima26</strong>
               </a>
             </li>
             <li className="mb-3">
               <i className="bi bi-github me-3 "></i>
               GitHub:{" "}
               <a
-                href="https://github.com/aminafatima"
+                href="https://github.com/Amina0426"
                 target="_blank"
                 className="text-info"
               >
-                <strong>@aminafatima</strong>
+                <strong>@Amina0426</strong>
               </a>
             </li>
           </ul>
